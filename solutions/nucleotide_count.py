@@ -17,12 +17,3 @@ def nucleotide_count(nucleotide):
     print(str(a) + " " + str(c) + " " + str(g) + " " + str(t))
     return str(a) + " " + str(c) + " " + str(g) + " " + str(t)
 
-#open text file in read mode
-text_file = open("rosalind_dna.txt", "r")
- 
-#read whole file to a string
-data = text_file.read()
- 
-#close file
-text_file.close()
-nucleotide_count(data)
